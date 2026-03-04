@@ -19,7 +19,9 @@ search.addEventListener('click', () => {
 
         if (json.cod == '404') {
             cityHide.textContent = city;
-            container.style.height = '400px';
+            appTitle.classList.add('hide');
+            container.classList.add('height');
+            // container.style.height = '555px';
             weatherBox.classList.remove('active');
             weatherDetails.classList.remove('active');
             error404.classList.add('active');
@@ -38,8 +40,8 @@ search.addEventListener('click', () => {
         else {
             cityHide.textContent = city;
 
-            appTitle.classList.add('hide')
-            container.classList.add('height')
+            appTitle.classList.add('hide');
+            container.classList.add('height');
             container.classList.add('active');
             weatherBox.classList.add('active');
             weatherDetails.classList.add('active');
