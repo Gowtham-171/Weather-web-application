@@ -77,5 +77,13 @@ This project helped practice:
 - CSS animations
 - Responsive design with media queries
 - Error handling for API responses
+  
+---
+
+## 👨‍💻 Author
+
+**Gowtham Sundaram**
+
+Aspiring **Fullstack Developer** passionate about building interactive web applications and modern UI dashboards.
 
 ---
